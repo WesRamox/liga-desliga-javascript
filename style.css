@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg_black {
+    background-color: black;
+}
+
+#change_theme {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(124, 16, 197);
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+
+    transition: all 0.5s ease;
+}
+
+#change_theme:hover {
+    background-color: rgb(68, 0, 128);
+    transition: all 0.5s ease;
+}
